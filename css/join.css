@@ -1,0 +1,72 @@
+#add{ background-color:#fcfcfc; font-size:12px;}
+.midDiv{width:100%; height:350px; background-color:#f3f3f3; padding-top:20px; }
+.bannerDiv,.mainLayout {width:1200px; margin:0 auto; position:relative;}
+.bannerMall{ width:910px; float:left;}
+.bannerMall ul.BannerList{width:910px; height:330px; float:left; display:inline; overflow:hidden; position:relative; z-index: 3;}
+.bannerMall ul.BannerList li{width:910px; float:left; display:none; height:420px; overflow:hidden; position:absolute; left:0; top:0; z-index: 3;}
+.bannerMall ul.BannerList li img{ width:100%; height:330px;}
+#picBtn{position: absolute; width:885px; height: 20px;top: 300px; z-index: 6; text-align:right;}
+#picBtn li{display:inline-block;*display:inline;*zoom:1; width:20px; height:20px; background:url(../img/btnBanner0.png) no-repeat left top!important; background:url(../img/btnBanner0.gif) no-repeat left top; cursor: pointer;}
+#picBtn li.current{display:inline-block;*display:inline;*zoom:1; width:20px; height:20px; background:url(../img/btnBanner0.png) no-repeat left -20px!important; background:url(../img/btnBanner0.gif) no-repeat left -20px; cursor: pointer;}
+
+.red{ color:#F00;}
+.srcollLeft{ float:right; width:290px; background-color:#fff; height:330px; text-align:center;}
+.srcollLeft h2{ font-size:20px; color:#777; margin-top:40px;}
+.srcollLeft p{ color:#777; font-family:Arial;}
+#focus{width:290px;height:240px;overflow:hidden;position:relative;}
+#focus ul{position:absolute; margin-top:25px;}
+#focus ul li{float:left;width:290px;overflow:hidden;position:relative;}
+#focus ul li img{ width:150px; height:150px;}
+#focus ul li h4{ margin:20px 15px 0; height:18px; overflow:hidden;}
+#focus ul li div{position:absolute;overflow:hidden;}
+#focus .preNext{width:19px;height:30px;position:absolute;top:90px;background:url(../img/sprite0.png) no-repeat 0 0;cursor:pointer;}
+#focus .pre{left:40px;}
+#focus .next{right:40px;background-position:right top;}
+#focus i,.store-sort i,.followIco,.checkIco,.crumbArrow{ background:url(../img/general.png) scroll; display:block; position:absolute;}
+#focus i{ background-position:-21px -44px; width:40px; height:40px; left:60px;}
+.mainLayout{ margin-top:20px; background-color:#fff;} 
+.other-main{ border:1px solid #dedede; border-top:3px solid #ff4646;}
+.store-style{border-bottom:1px solid #dedede;}
+.other-main .column{ display:inline-block; background-color:#f8f8f8; color:#999; width:110px; height:50px; padding:0; line-height:50px; text-align:center;
+border-right:1px solid #dedede;}
+.store-style a{ padding:4px 7px; display:inline-block; margin-left:22px;}
+.store-style a:hover,.store-style .cur{ background-color:#ff4646; color:#fff; border-radius:2px;}
+.store-address{ height:95px;border-bottom:1px solid #dedede;}
+.store-address .column{ height:100%; float:left;}
+.store-address .hot-city{ padding:20px 0;}
+.store-address .hot-city span,.other-city span{ margin-left:25px; color:#666;}
+.store-address a{ color:#ff4646; margin:0 10px;}
+.store-address a:hover{ text-decoration:underline;}
+.other-city{ padding-bottom:17px;}
+#address_form{ display:inline-block; margin-left:12px;}
+#address_form .province{ margin-right:10px;}
+.store-sort{ padding-left:125px; background-color:#f8f8f8; position:relative;}
+.store-sort a{ display:inline-block; line-height:30px; width:80px; text-align:center; border:1px solid #dedede;margin: 12px -5px 10px 0;overflow: hidden; height:30px; background-color:#fff;}
+.store-sort i{ background-position:-22px -101px; width:7px; height:9px; top:25px; margin-left:55px;}
+.store-sort a:hover i,.store-sort .cur i{ background-position:-22px -110px;}
+.store-sort a:hover,.store-sort .cur{ color:#ff4646;}
+
+.followIco{ background-position:-19px -87px; width:12px; height:10px;}
+.checkIco{background-position:-16px 0; width:16px; height:16px;}
+.stroe-list{ margin-top:30px;}
+.itemDiv{ border:1px solid #dedede; width:348px; height:180px; float:left; background-color:#fff; padding:0 15px; margin:0 30px 30px 0; }
+.itemDiv:hover{ display:block; border:3px solid #ff4646;margin:-2px 28px 28px -2px;}
+.stroe-list .listDiv{ margin-right:-30px;}
+.itemDiv h2{ font-size:16px; line-height:45px;}
+.itemDiv img{ width:120px; height:120px; float:left;}
+.itemDiv .item-info{ width:205px; float:right; }
+.item-info li{ line-height:28px;width:205px; overflow:hidden; text-overflow: ellipsis;white-space: nowrap;}
+.item-info li label{ width:50px; text-align:right; display:inline-block; float:left; color:#888;}
+.itemDiv .rightFollow{ display:inline-block; width:40px; float:right; font-size:12px; font-weight:normal; text-align:right;}
+.itemDiv .followIco{ margin-top:18px;}
+.rightFollow:hover .followIco{ background-position:-31px -87px;}
+.rightFollow:hover{ color:#ff4646;}
+.item-info .checkIco{ margin:8px 0 0 48px;}
+
+/*分页*/
+.resultPages{ margin: 10px 0 40px 0; width:100%; float:left; font-size:13px;}
+.resultPages a,.resultPages a:hover{display: inline-block; color: #444; text-decoration: none; border: 1px solid #dedede; height: 30px;line-height: 30px; margin: 0 3px;padding: 0 12px;text-align: center;vertical-align: middle; font-family:Arial, Helvetica, sans-serif; background-color:#f6f6f6;}
+.resultPages a:hover,.resultPages a.current,.resultPages a.current:hover{background-color: #ff4646; color:#fff;border: 1px solid #ff4646;}
+.resultPages .crumbArrow {display: inline-block;height: 12px;margin: 9px 0 0 -3px; overflow: hidden;text-indent: -999999px;vertical-align: middle;width: 7px;}
+.crumbArrow.forward{ background-position:-72px -28px;}
+.crumbArrow.future{ background-position:-80px -28px;}
